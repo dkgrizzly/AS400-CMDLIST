@@ -1,0 +1,3 @@
+"CMDID","DESC","CMD"
+"1","Action Games                                                                  ","CALL GWZ/CMDS PARM('GWZ/ACTNGAMES' 'Action Games')                            "
+"2","Strategy and Puzzle Games                                                     ","CALL GWZ/CMDS PARM('GWZ/STRGYGAMES' 'Strategy and Puzzle Games')              "

@@ -1,0 +1,4 @@
+"CMDID","DESC","CMD"
+"1","Escape from the Daleks                                                        ","CALL DALEKS/GAME                                                              "
+"2","AS/400 Maze                                                                   ","CALL MAZE/GAME                                                                "
+"3","Snake/400                                                                     ","CALL SNAKE/GU007C                                                             "

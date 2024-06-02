@@ -1,0 +1,13 @@
+/* ------------------------------------------------------- *
+// PHYSICAL FILE : GWZ/CMDLIST
+// FILE LAST CHANGE DATE : 2024/04/06
+// RECORD FORMAT : CMDRCD
+// FORMAT LEVEL IDENTIFIER : 23F9C54BAB32D
+ * ------------------------------------------------------- */
+typedef _Packed struct {
+   int CMDID;
+   char DESC[78];                        /* SCREEN TEXT */
+   char CMD[78];
+} GWZ_CMDLIST_CMDRCD_both_t;
+
+

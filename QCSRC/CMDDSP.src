@@ -1,0 +1,29 @@
+/* ------------------------------------------------------- *
+// DEVICE   FILE : GWZ/CMDDSP
+// FILE LAST CHANGE DATE : 2024/04/06
+// RECORD FORMAT : CMDLIST
+// FORMAT LEVEL IDENTIFIER : 1992D26813CB5
+ * ------------------------------------------------------- */
+typedef _Packed struct {
+   char IN97;                            /* PAGEUP */
+   char IN98;                            /* PAGEDOWN */
+   char IN99;                            /* ABORT */
+   char INPUT[2];
+} GWZ_CMDDSP_CMDLIST_i_t;
+
+
+typedef _Packed struct {
+   char TITLE[78];
+   char SEP1[78];
+   char SCRN[14][78];
+   char SEP2[78];
+   char KEYS[78];
+} GWZ_CMDDSP_CMDLIST_o_t;
+
+
+typedef union {
+    GWZ_CMDDSP_CMDLIST_i_t    GWZ_CMDDSP_CMDLIST_i;
+    GWZ_CMDDSP_CMDLIST_o_t    GWZ_CMDDSP_CMDLIST_o;
+} CMDDSP_t;
+
+

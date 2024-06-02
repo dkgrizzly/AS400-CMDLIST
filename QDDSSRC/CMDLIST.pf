@@ -1,0 +1,6 @@
+     A                                      UNIQUE
+     A          R CMDRCD
+     A            CMDID          8B 0
+     A            DESC          78A         TEXT('SCREEN TEXT')
+     A            CMD           78A
+     A          K CMDID

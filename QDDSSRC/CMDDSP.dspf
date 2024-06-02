@@ -1,0 +1,32 @@
+     A          R CMDLIST
+     A                                      CLEAR
+     A                                      BLINK
+     A                                      PAGEUP(97 'Page Up')
+     A                                      PAGEDOWN(98 'Page Down')
+     A                                      CA12(99 'ABORT')
+     A            TITLE         78A  O 01 02
+     A                                      DSPATR(HI)
+     A            SEP1          78A  O 02 02
+     A                                      DSPATR(HI)
+     A            SCRN01        78A  O 04 02
+     A            SCRN02        78A  O 05 02
+     A            SCRN03        78A  O 06 02
+     A            SCRN04        78A  O 07 02
+     A            SCRN05        78A  O 08 02
+     A            SCRN06        78A  O 09 02
+     A            SCRN07        78A  O 10 02
+     A            SCRN08        78A  O 11 02
+     A            SCRN09        78A  O 12 02
+     A            SCRN10        78A  O 13 02
+     A            SCRN11        78A  O 14 02
+     A            SCRN12        78A  O 15 02
+     A            SCRN13        78A  O 16 02
+     A            SCRN14        78A  O 17 02
+     A            SEP2          78A  O 18 02
+     A                                      DSPATR(HI)
+     A                                 21 34'SELECTION:'
+     A            INPUT          2A  I 21 45
+     A                                      DSPATR(HI)
+     A            KEYS          78A  O 24 02
+     A                                      COLOR(BLU)
+      *
